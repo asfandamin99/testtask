@@ -1,0 +1,975 @@
+.dashboard-para {
+  padding: 20px;
+  color: #000000;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.active-driver-content {
+  color: #000000;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.dashboard-checkboxes {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #80848d;
+}
+
+.drivers-btn {
+  width: 100px;
+  height: 30px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.map-para {
+  padding-top: 5px;
+  color: #000000;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.driver-dialog-title {
+  color: #000000;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.import-drivers-btn {
+  width: 120px;
+  height: 30px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.drivers-icon {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.drivers-hamburger-btn {
+  width: 30px;
+  height: 30px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.next-btn {
+  width: 130px;
+  height: 45px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.next-btn.disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.cancel-btn {
+  width: 100px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #20a8d9;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.driving-license {
+  width: 168px;
+  height: 143px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  position: relative;
+}
+
+.driving-license-content {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #80848d;
+}
+
+.driving-license-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.driver-license-file {
+  width: 144px;
+  height: 86px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.driver-license-cross-image {
+  position: absolute;
+  top: 33px;
+  left: 148px;
+  width: 10px;
+}
+
+.driver-search-btn {
+  width: 74px;
+  height: 36px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+/* Start Passenger css */
+.passengers-btn {
+  width: 124px;
+  height: 30px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.add-btn {
+  width: 100px;
+  height: 36px;
+  background: #20a8d9;
+  border: 1px solid #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.success-dialog {
+  width: 500px;
+  height: 330px;
+  background: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+/* End Passenger css */
+
+/* Start Vehicle css */
+
+.search-icon {
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+}
+
+.service-info-content {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0e1726;
+}
+
+.service-type-content {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0e1726;
+  padding-top: 35px;
+}
+
+.upload-drive-image-content {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #666666;
+}
+
+/* End Vehicle css */
+
+.fares-btn {
+  width: 124px;
+  height: 30px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-top: 15px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.airport-search-icon {
+  position: absolute;
+  top: 28px;
+  left: 320px;
+}
+
+.login-main {
+  height: 100vh;
+  background: url("./assests//icons//dispatch_bg.svg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 460px;
+  padding: 55px;
+}
+
+.cabstartup-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #20a8d9;
+}
+
+.start-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: -1px;
+  color: #000000;
+}
+
+.back-office-para {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.email-icon {
+  position: absolute;
+  bottom: 12px;
+  left: 350px;
+}
+
+.forgot-password {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  color: #20a8d9;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.remember-me {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.login-btn {
+  width: 457px;
+  height: 36px;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.driver-status {
+  width: 61px;
+  height: 20px;
+  background: #e2f4e5;
+  border-radius: 4px;
+}
+
+.driver-status .driver-status-content {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  color: #60b974;
+}
+
+.driver-status-danger {
+  width: 61px;
+  height: 20px;
+  background: #feedea;
+  border-radius: 4px;
+}
+
+.driver-status-danger .driver-status-content-danger {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  color: #f7715f;
+}
+
+.delete-icon-content {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #0e1726;
+  text-align: center;
+}
+
+.delete-btn {
+  width: 100px;
+  height: 36px;
+  background: #f7705f;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cancel-btn-confirmation {
+  width: 100px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #f7705f;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #f7705f;
+  margin-right: 10px;
+}
+
+.driver-info-img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50px;
+}
+
+.personal-account-para {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #0e1726;
+}
+
+.personal-bank-para {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #80848d;
+}
+
+.select-days {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #666666;
+  padding-top: 20px;
+}
+
+.dashMap {
+  min-width: 659px;
+  min-height: 85vh;
+  padding-top: 1em;
+
+  background: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.dashNavSection {
+  position: relative;
+  top: 7em;
+  padding: 0%;
+  margin: 0%;
+
+  background: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.dashCalls {
+  min-width: 319px;
+  min-height: 243px;
+
+  background: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.dashDrivers {
+  min-width: 319px;
+  /* min-height: 396px; */
+  max-height: 49vh;
+  overflow-y: scroll;
+
+  background: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.dashBooking {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  font-feature-settings: "ss01" on, "cv01" on, "cv11" on;
+
+  color: #0e1726;
+}
+
+.addRide-btn {
+  width: 320px;
+  height: 36px;
+  border: none;
+
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.scheduleRide-btn {
+  box-sizing: border-box;
+
+  width: 320px;
+  height: 36px;
+
+  background: #ffffff;
+  border: 1px solid #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #20a8d9;
+}
+
+.header-tabs-writing {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #80848d;
+}
+
+.dash-segment-writing {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #0e1726;
+}
+
+.booking-history-container {
+  background: #ffffff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+}
+
+.boooking-search-btn {
+  width: 74px;
+  height: 36px;
+  color: #ffffff;
+  border: none;
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  position: relative;
+  left: 1vw;
+  top: 1vh;
+}
+
+.boooking-history-heading {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  font-feature-settings: "ss01" on, "cv01" on, "cv11" on;
+
+  color: #0e1726;
+}
+
+.trips-history-list-btn {
+  box-sizing: border-box;
+  width: 100px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.add-ride-madal {
+  border-radius: 16px;
+  padding: 1em;
+}
+
+.add-ride-Heading1 {
+  width: 171px;
+  height: 18px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  font-feature-settings: "ss01" on, "cv01" on, "cv11" on;
+
+  color: #0e1726;
+}
+
+.add-ride-Heading2 {
+  /* width: 82px;
+  height: 18px; */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  font-feature-settings: "ss01" on, "cv01" on, "cv11" on;
+
+  color: #0e1726;
+}
+
+.add-ride-cancel-btn {
+  color: #20a8d9;
+  box-sizing: border-box;
+
+  width: 100px;
+  height: 36px;
+
+  background: #ffffff;
+  border: 1px solid #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.add-ride-add-btn {
+  color: #ffffff;
+  margin-left: 1vw;
+  border: none;
+  width: 100px;
+  height: 36px;
+
+  background: #20a8d9;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.driver-profile-heading1 {
+  margin-left: 1em;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  font-feature-settings: "ss01" on, "cv01" on, "cv11" on;
+
+  color: #0e1726;
+}
+
+.driver-profile-heading2 {
+  padding-left: 2.5em;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #0e1726;
+}
+
+.driver-profile-heading3 {
+  padding-left: 3.5em;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #80848d;
+}
+
+.profile-tab {
+  color: #80848d;
+}
+.profile-tab:focus {
+  color: #20a8d9;
+}
+
+.history-request {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #80848d;
+}
+
+.history-request-id {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #0e1726;
+}
+
+.history-address {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: -0.01em;
+
+  color: #000000;
+  padding-left: 1em;
+}
+
+.history-box {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 5px 0px;
+  gap: 9px;
+
+  /* width: 291px;
+height: 223px; */
+
+  background: #f6f8fa;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.history-assign-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 10px;
+  gap: 10px;
+
+  height: 24px;
+
+  background: #20a8d9;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  border: none;
+  margin-left: 6.5vw;
+  
+}
+
+.history-inprogress-btn {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 10px;
+gap: 10px;
+height: 24px;
+
+
+background: #EEC317;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 6;
+flex-grow: 0;
+
+font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  border: none;
+  margin-left: 6.5vw;
+}
+
+.dash-drivers-time{
+  text-align: end;
+  height: 3vh;
+  width: 7vw;
+  position: relative;
+  top: -6vh;
+  left: 16vw;
+
+}
+
+.add-ride-phone{
+  width: fit-content;
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #666666;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+background: #ffffff;
+}
+
+
+
+.add-ride-phone-input:hover{
+  border-color:   black ; 
+}
+
+.add-ride-pickup-location{
+  font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #666666;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.dash-bookingHistory-time{
+  
+
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 180% */
+
+text-align: right;
+
+color: #80848D;
+
+}
+
+.dash-bookingHistory-time-2{
+  
+
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 180% */
+  
+  text-align: right;
+  
+  color: #80848D;
+  
+  }
